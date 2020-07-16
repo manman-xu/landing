@@ -1,0 +1,79 @@
+/* Write some CSS below */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fa7d09;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Kaushan Script', cursive;
+  color: #ff4301;
+}
+
+a {
+  color: #4a3f35;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #2f2519;
+}
+
+.Banner {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+}
+
+.Banner h1 {
+	font-size: 45px
+}
+
+.Banner p {
+	font-seze: 24px; 
+	opacity: .7;
+}
+
+.button-yellow {
+	background-color: #fa7d09;
+	padding: 16px 48px;
+	border-radius: 4px;
+}
+
+.button-yellow:hover {
+	background-color: #ff4301;
+}
+
+.card-brown	{
+	background-color: #2f2519;
+	padding: 24px;
+	margin: 8px;
+	width: 200px;
+	text-align: center;
+	box-shadow: 2 2 16px rgba (0,0,0,0.1);
+	border-radius: 4px;
+}
+
+.container {
+	width: 1400px;
+	margin: auto;
+	text-align: center;
+	align-content: center;
+}
+
+.Footer {
+	background-color: #4a3f35;
+	text-align: center;
+	padding: 16px 0;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
